@@ -1,8 +1,9 @@
 ## Proyecto Admon. de Riesgos Informáticos
 
-Instalar el proyecto con
+Para instalar el proyecto debe de tener antes instalado NPM y Node JS
+Para instalar las dependencias debe de ubicarse en la carpeta del proyecto y ejecutar el siguiente comando
 ## `npm install`
-Para ejecutar el proyecto se debe colocar el siguiente comando 
+Luego para ejecutar el proyecto debe colocar el siguiente comando 
 ### `npm start`
 
 ## Integrantes <br>
