@@ -1,6 +1,14 @@
 import { saveAs } from "file-saver";
+import {message} from 'antd';
 
-const convertJSONToTxt = (json, delimeter) => {
+const convertJSONToTxt = (fileinfo, delimeter) => {
+    let json = {};
+    try {
+        json = JSON.parse(fileinfo);
+    } catch (error) {
+        message.error("El texto leido no es un JSON");
+        return;
+    }
     var str = ""
     for (let key in json) {
         str += json[key].documento + delimeter

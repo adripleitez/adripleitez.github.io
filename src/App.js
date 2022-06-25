@@ -238,7 +238,7 @@ class App extends Component {
                         </Row>
                         <Row justify="center" gutter={30}>
                             <Col className="gutter-row">
-                                <Button type="primary" className="btn" onClick={() => convertJSONToTxt(JSON.parse(this.state.infoFile), this.state.delimeter)}>Convertir JSON A TXT</Button>
+                                <Button type="primary" className="btn" onClick={() => convertJSONToTxt(this.state.infoFile, this.state.delimeter)}>Convertir JSON A TXT</Button>
                             </Col>
                             <Col className="gutter-row">
                                 <Button type="primary" className="btn" onClick={() => convertXMLToTxT(this.state.infoFile, this.state.delimeter)}>Convertir XML A TXT</Button>
