@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "homepage": "https://adripleitez.github.io",
     "antd": "^4.16.3",
     "file-saver": "^2.0.5",
     "fs": "0.0.1-security",
@@ -19,6 +20,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-error-overlay": "^6.0.9"
   }
 }
